@@ -1,0 +1,134 @@
+.pic{
+	margin-top: -30px;
+	margin-left: auto;
+	margin-right: auto;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	transition: 0.5s;
+}
+.nav-link{
+    transition: 0.3s;
+}
+.nav-link:hover{
+    font-weight: bold;
+}
+
+#icon{
+	color: grey;
+    padding-right: 40px;
+    padding-left: 40px
+}
+.pic:hover{
+	height: 210px;
+	width: 210px;
+	-webkit-box-shadow: 0px 9px 69px 1px rgba(60,72,87,1);
+}
+.navbar-brand{
+    transition: 0.5s;
+}
+.navbar-brand:hover
+{
+    -ms-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg); 
+    transform: rotate(360deg);
+}
+.name{
+	font-size: 40px;
+	margin-top: 20px;
+	text-align: center;
+}
+#ct{
+    padding-top: 0px;
+    font-size: 20px;
+    color: grey;
+}
+.links{
+	text-align: center;
+}
+hr{
+	width: 60%;
+}
+.navbar{
+	position: inherit;
+}
+
+.details{
+   float: left;
+}
+#dt{
+    margin-left: 100px;
+}
+.circle{
+    width: 30%;
+    background:white;
+    margin: 1.66%;
+    padding-bottom: 30%;
+    float:left;
+    border-radius: 15%;
+}
+#about{
+    width: 100%;
+    height: 42vh;
+}
+.about2{
+    width: 100%;
+    background-color: #F8F8F8;
+    -webkit-box-shadow: 0px 1px 4px 0px rgba(189,189,189,1);
+    /*-webkit-box-shadow: 0px 2px 2px 1px rgba(60,72,87,1);*/
+}
+#education{
+    margin-top: 40px;
+    margin-bottom: 50px;
+    
+}
+.head{
+    font-size: 30px;
+    text-align: center;
+}
+.sk{
+    background-color: steelblue;
+    margin-left: 45px;
+    margin-bottom: 10px;
+    color: white;
+    text-align: center;
+    border-radius: 12px;
+    font-size: 30px;
+    -webkit-box-shadow: 2px 3px 4px 0px rgba(189,189,189,1);
+}
+
+
+/* timeline */
+
+ul.timeline {
+    list-style-type: none;
+    position: relative;
+}
+ul.timeline:before {
+    content: ' ';
+    background: #d4d9df;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100%;
+    z-index: 400;
+}
+ul.timeline > li {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+ul.timeline > li:before {
+    content: ' ';
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 30%;
+    border: 3px solid steelblue;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+}
